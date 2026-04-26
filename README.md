@@ -1,9 +1,10 @@
 # merchant-agent
 
-Standalone merchant-agent backend seed.
+Standalone merchant-agent repository.
 
-This repository is carved out from `interactive-decision-support-system/idss-backend`
-as the implementation home for the merchant agent and future merchant admin UI.
+This repository was seeded from `interactive-decision-support-system/idss-backend`
+and is now the implementation home for the merchant agent backend and future
+merchant admin UI.
 
 Initial scope:
 
@@ -19,7 +20,7 @@ Environment:
 - `DATABASE_URL` should point at the live Supabase/Postgres connection; the
   backend does not fall back to a local database.
 
-Out of scope for this seed:
+Out of scope:
 
 - legacy IDSS paper artifacts
 - legacy `/chat` surface
