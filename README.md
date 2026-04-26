@@ -109,11 +109,3 @@ PYTHONPATH=. python -m pytest \
   tests/test_merchant_admin_http.py \
   tests/test_enrichment_inspector.py
 ```
-
-## Roadmap
-
-- Add production-grade auth and tenant isolation for merchant/admin routes.
-- Promote the inspector/admin workflows into a dedicated merchant admin UI.
-- Tighten enrichment evaluation, traceability, and Langfuse run mapping.
-- Remove legacy compatibility code paths that are no longer used.
-- Generate and publish API contracts for downstream clients.
